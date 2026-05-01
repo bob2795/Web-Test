@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "_site/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: vehicles
+    label: "Vehicles"
+    folder: "vehicles"
+    create: true
+    slug: "{{vin}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: hidden, default: "layouts/vehicle.html"}
+      - {label: "Vehicle Name", name: "name", widget: "string" }
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Condition", name: "condition", widget: "string", default: "Used"}
+      - {label: "Kilometres", name: "kilometres", widget: "number"}
+      - {label: "Transmission", name: "transmission", widget: "string"}
+      - {label: "Drivetrain", name: "drivetrain", widget: "string"}
+      - {label: "Fuel", name: "fuel", widget: "string"}
+      - {label: "Seats", name: "seats", widget: "number"}
+      - {label: "Body Style", name: "body-style", widget: "string"}
+      - {label: "Color", name: "color", widget: "string"}
+      - {label: "Model", name: "model", widget: "string"}
+      - {label: "Vin", name: "vin", widget: "string" }
+      - {label: "Image", name: "image", widget: "image"}
