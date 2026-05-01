@@ -1,0 +1,24 @@
+{
+  "name": "web-test",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000W\u0000e\u0000b\u0000-\u0000T\u0000e\u0000s\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bob2795/Web-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bob2795/Web-Test/issues"
+  },
+  "homepage": "https://github.com/bob2795/Web-Test#readme",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}

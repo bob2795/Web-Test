@@ -1,0 +1,9 @@
+<ul>
+{% for vehicle in collections.vehicles %}
+    <li>
+        <a href="{{ vehicle.url | url }}">{{ vehicle.data.name }}</a>
+        <img src="{{vehicle.data.image | url }}" alt="vehicle">
+        <span>{{ vehicle.data.description }}</span>
+    </li>
+{% endfor %}
+</ul>
