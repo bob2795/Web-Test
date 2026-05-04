@@ -12,5 +12,5 @@ body-style: Round
 color: Lime Green
 model: Homer
 vin: F8943FVDFSA
-image: /images/uploads/600px-the_homer.png
+image: https://static.simpsonswiki.com/images/thumb/4/4c/The_Homer.png/500px-The_Homer.png
 ---

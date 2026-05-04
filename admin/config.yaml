@@ -12,8 +12,8 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: hidden, default: "layouts/vehicle.html"}
       - {label: "Vehicle Name", name: "name", widget: "string" }
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Condition", name: "condition", widget: "string", default: "Used"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Condition", name: "condition", widget: "select", options: ["Used", "New"]}
       - {label: "Kilometres", name: "kilometres", widget: "number"}
       - {label: "Transmission", name: "transmission", widget: "string"}
       - {label: "Drivetrain", name: "drivetrain", widget: "string"}
@@ -23,4 +23,4 @@ collections:
       - {label: "Color", name: "color", widget: "string"}
       - {label: "Model", name: "model", widget: "string"}
       - {label: "Vin", name: "vin", widget: "string" }
-      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Image Link", name: "image", widget: "image"}

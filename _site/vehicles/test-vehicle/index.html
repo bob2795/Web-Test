@@ -1,46 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <title>Wheeler Auto Ent.</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <title>[object Object] - Wheeler Auto Ent.</title>
 </head>
+
 <body>
-    <header>
-        <a href="/"><h1>Wheeler Auto Ent.</h1></a>
-        <a href="/vehicles">Vehicles</a>
-    </header>
-    <main>
-        <h2>2017 GMC SIERRA ELEVATION 4X4</h2>
-<h3> Just in time for camping season ! This One Owner, Local truck is ready to go! Fully inspected for your peace of mind. Wheeler auto proudly serves Edmonton & area. </h3>
-<img src="/images/uploads/test-vehicle.webp" alt="vehicle">
+  <header>
+    <nav class="navbar navbar-expand bg-body-tertiary">
+      <div class="container-fluid">
+        <a href="/" class="navbar-brand">
+          <h1>Wheeler Auto Ent.</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/vehicles" class="nav-link">Vehicles</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<ul>
-    <li>Condition: Used</li>
-    <li>Kilometers: </li>
-    <li>Transmission: Automatic</li>
-    <li>Drivetrain: 4 x 4 </li>
-    <li>Fuel: Gas</li>
-    <li>Seats: 6 seats</li>
-    <li>Body Style: Pickup Truck 4 Doors</li>
-    <li>Color: Blue exterior</li>
-    <li>Model: 2017 GMC Sierra 1500 ELEVATION</li>
-</ul>
+  </header>
+  <main>
+    <div class="container mt-4">
+  <div class="row">
+    <div class="col-8">
+      <img src="https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/9b/9b62cb5c-9f44-4ab9-a0a9-ceb07857db67?rule=kijijica-1600-webp" alt="vehicle" class="img-fluid">
+    </div>
+    <div class="col-4 align-self-center">
+      <div class="gap-2 d-grid">
+        <a href="tel:+1-780-940-1864" type="button"
+          class="btn btn-primary">Contact&nbsp;us:&nbsp;+1&#8209;780&#8209;940&#8209;1864</a>
+        <a href="#" type="button" class="btn btn-primary">View on Facebook marketplace</a>
+        <a href="#" type="button" class="btn btn-primary">View on Kijiji</a>
+      </div>
+    </div>
+    <h2 class="h1 mt-3">2017 GMC SIERRA ELEVATION 4X4</h2>
+    <h3 class="mt-2">Just in time for camping season ! This One Owner, Local truck is ready to go! Fully inspected for your peace of mind. Wheeler auto proudly serves Edmonton & area.</h3>
 
+    <table class="table mt-4">
+      <thead>
+        <tr>
+          <th>Condition</th>
+          <th>Kilometers</th>
+          <th>Transmission</th>
+          <th>Drivetrain</th>
+          <th>Fuel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Used</td>
+          <td>269711</td>
+          <td>Automatic</td>
+          <td>4 x 4 </td>
+          <td>Gas</td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Seats</th>
+          <th>Body Style</th>
+          <th>Color</th>
+          <th>Model</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>6</td>
+          <td>Pickup Truck 4 Doors</td>
+          <td>Blue exterior</td>
+          <td>2017 GMC Sierra 1500 ELEVATION</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+  </main>
 
-    <!-- netlify cms user stuff -->
-    <script>
-        if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-            if (!user) {
-            window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-            });
-            }
-        });
+  <!-- netlify cms user stuff -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
         }
-    </script>
-    </main>
+      });
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
