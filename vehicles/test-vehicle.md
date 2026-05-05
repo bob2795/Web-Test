@@ -1,6 +1,7 @@
 ---
 layout: layouts/vehicle.html
 name: 2017 GMC SIERRA ELEVATION 4X4
+price: 4999.99
 description: Just in time for camping season ! This One Owner, Local truck is ready to go! Fully inspected for your peace of mind. Wheeler auto proudly serves Edmonton & area.
 condition: Used
 kilometres: 269711

@@ -1,6 +1,7 @@
 ---
 layout: layouts/vehicle.html
 name: The Homer
+price: 1000.78
 description: 'Concept, designed for the "average" American '
 condition: Used
 kilometres: 200

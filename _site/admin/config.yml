@@ -12,6 +12,7 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: hidden, default: "layouts/vehicle.html"}
       - {label: "Vehicle Name", name: "name", widget: "string" }
+      - {label: "Price", name: "Price", widget: "number", value_type: "float"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Condition", name: "condition", widget: "select", options: ["Used", "New"]}
       - {label: "Kilometres", name: "kilometres", widget: "number"}
