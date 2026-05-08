@@ -1,13 +1,18 @@
-<div class="container ">
+<h2 class="text-center mt-4">All Vehicles</h2>
+<p class="text-center">Select a vehicle to view it's information</p>
+<div class="container">
     <div class="row">
 {% for vehicle in collections.vehicles %}
-    <div class="card col m-3" >
-        <img src="{{vehicle.data.image }}" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">{{ vehicle.data.name }}</h5>
-            <p class="card-text">{{ vehicle.data.description }}</p>
-            <a href="{{ vehicle.url | url }}" class="btn btn-primary">View Vehicle</a>
-        </div>
+    <div class="col-md-4 ">
+        <a href="{{ vehicle.url | url }}" style="text-decoration: none;">
+            <div class="card mt-3" >
+                <img src="{{vehicle.data.image }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ vehicle.data.name }}</h5>
+                    <p class="card-text">${{ vehicle.data.price}}</p>
+                </div>
+            </div>
+        </a>
     </div>
 {% endfor %}
     </div>
