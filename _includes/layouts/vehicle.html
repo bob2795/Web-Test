@@ -1,13 +1,17 @@
 ---
-title: Vehicle
 layout: layouts/base.html
 ---
-<div class="container mt-4">
+<div class="container mt-1">
+  <h2 class="fw-bold">{{ name }}</h2>
   <div class="row">
-    <div class="col-8">
+    <div class="col-lg-7">
       <img src="{{ image }}" alt="vehicle" class="img-fluid">
     </div>
-    <div class="col-4 align-self-center">
+    <div class="col-lg-5 bg-light d-flex flex-column justify-content-between">
+      <div>
+      <p class="h2 mt-2 fw-semibold">${{ price }}</p>
+      <p class="mt-2 fs-5">{{ description }}</p>
+      </div>
       <div class="gap-2 d-grid">
         <a href="tel:+1-780-940-1864" type="button"
           class="btn btn-primary">Contact&nbsp;us:&nbsp;+1&#8209;780&#8209;940&#8209;1864</a>
@@ -15,11 +19,8 @@ layout: layouts/base.html
         <a href="#" type="button" class="btn btn-primary">View on Kijiji</a>
       </div>
     </div>
-    <h2 class="h1 mt-3">{{ name }}</h2>
-    <h2 class="h2 mt-2">${{ price }}</h2>
-    <h3 class="mt-2">{{ description }}</h3>
-
-    <table class="table mt-4">
+    <h2 class="mt-4 fw-semibold">Details</h2>
+    <table class="table table-sm">
       <thead>
         <tr>
           <th>Condition</th>
@@ -39,7 +40,7 @@ layout: layouts/base.html
         </tr>
       </tbody>
     </table>
-    <table class="table">
+    <table class="table table-sm">
       <thead>
         <tr>
           <th>Seats</th>

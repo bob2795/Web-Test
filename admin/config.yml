@@ -13,15 +13,15 @@ collections:
       - {label: "Layout", name: "layout", widget: hidden, default: "layouts/vehicle.html"}
       - {label: "Vehicle Name", name: "name", widget: "string" }
       - {label: "Price", name: "Price", widget: "number", value_type: "float"}
+      - {label: "Vin", name: "vin", widget: "string" }
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Condition", name: "condition", widget: "select", options: ["Used", "New"]}
-      - {label: "Kilometres", name: "kilometres", widget: "number"}
-      - {label: "Transmission", name: "transmission", widget: "string"}
       - {label: "Drivetrain", name: "drivetrain", widget: "string"}
-      - {label: "Fuel", name: "fuel", widget: "string"}
-      - {label: "Seats", name: "seats", widget: "number"}
       - {label: "Body Style", name: "body-style", widget: "string"}
       - {label: "Color", name: "color", widget: "string"}
       - {label: "Model", name: "model", widget: "string"}
-      - {label: "Vin", name: "vin", widget: "string" }
+      - {label: "Kilometres", name: "kilometres", widget: "number"}
+      - {label: "Seats", name: "seats", widget: "number"}
+      - {label: "Condition", name: "condition", widget: "select", options: ["Used", "New"]}
+      - {label: "Transmission", name: "transmission", widget: "select", options: ["Automatic", "Manual"]}
+      - {label: "Fuel", name: "fuel", widget: "select", options: ["Gas", "Diesel"]}
       - {label: "Image Link", name: "image", widget: "image"}
