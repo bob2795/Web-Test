@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
   branch: main
 media_folder: "_site/images/uploads"
 public_folder: "/images/uploads"
@@ -9,6 +9,8 @@ collections:
     folder: "vehicles"
     create: true
     slug: "{{vin}}"
+    editor:
+      preview: false
     fields:
       - {label: "Layout", name: "layout", widget: hidden, default: "layouts/vehicle.html"}
       - {label: "Vehicle Name", name: "name", widget: "string" }
@@ -24,4 +26,6 @@ collections:
       - {label: "Condition", name: "condition", widget: "select", options: ["Used", "New"]}
       - {label: "Transmission", name: "transmission", widget: "select", options: ["Automatic", "Manual"]}
       - {label: "Fuel", name: "fuel", widget: "select", options: ["Gas", "Diesel"]}
-      - {label: "Image Link", name: "image", widget: "image"}
+      - {label: "Images", name: "images", widget: "list", summary: "{{fields.image}}", field: {label: Image, name: image, widget: image}}
+
+      

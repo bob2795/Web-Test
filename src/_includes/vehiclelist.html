@@ -3,10 +3,10 @@
 <div class="container">
     <div class="row">
 {% for vehicle in collections.vehicles %}
-    <div class="col-md-4 ">
+    <div class="col-sm-6 col-md-4 col-lg-3">
         <a href="{{ vehicle.url | url }}" style="text-decoration: none;">
             <div class="card mt-3" >
-                <img src="{{vehicle.data.image }}" class="card-img-top" alt="...">
+                <img src="{{ vehicle.data.images | first }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ vehicle.data.name }}</h5>
                     <p class="card-text">${{ vehicle.data.price}}</p>

@@ -13,5 +13,5 @@ body-style: SUV, Crossover 4 Doors
 color: White exterior
 model: 2016 Ford Escape SE
 vin: 1FMCU9GX8GUA23579
-image: https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/1b/1b0ef5ba-1165-4ae4-8119-a66255512c73?rule=kijijica-1600-webp
+images: [https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/1b/1b0ef5ba-1165-4ae4-8119-a66255512c73?rule=kijijica-1600-webp,"https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/1b/1b0ef5ba-1165-4ae4-8119-a66255512c73?rule=kijijica-1600-webp"]
 ---

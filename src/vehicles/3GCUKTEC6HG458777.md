@@ -13,5 +13,5 @@ body-style: Pickup Truck 4 doors
 color: Black exterior
 model: 2017 Chevrolet Silverado 1500 High Country
 vin: 3GCUKTEC6HG458777
-image: https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/b4/b4a43287-0133-492a-89f4-1423f6bd7697?rule=kijijica-1600-webp
+images: [https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/b4/b4a43287-0133-492a-89f4-1423f6bd7697?rule=kijijica-1600-webp]
 ---

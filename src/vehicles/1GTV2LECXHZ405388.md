@@ -13,5 +13,5 @@ body-style: Pickup Truck 4 Doors
 color: Blue exterior
 model: 2009 Dodge Laramie
 vin: 1GTV2LECXHZ405388
-image: https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/1d/1d2b1177-1dfe-47d3-baad-f320054d3003?rule=kijijica-1600-webp
+images: [https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/1d/1d2b1177-1dfe-47d3-baad-f320054d3003?rule=kijijica-1600-webp]
 ---

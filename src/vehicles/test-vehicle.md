@@ -13,5 +13,5 @@ body-style: Pickup Truck 4 Doors
 color: Blue exterior
 model: 2017 GMC Sierra 1500 ELEVATION
 vin: 1GTV2LECXHZ405388
-image: https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/9b/9b62cb5c-9f44-4ab9-a0a9-ceb07857db67?rule=kijijica-1600-webp
+images: [https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/9b/9b62cb5c-9f44-4ab9-a0a9-ceb07857db67?rule=kijijica-1600-webp]
 ---
