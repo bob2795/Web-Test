@@ -1,0 +1,23 @@
+.hero-image {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/60b06304404f6c784f922c05/cdbfedda-b8ed-4eba-af54-89306d2759c3/bw+WD+Dragster.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:hsl(208, 16.5%, 17.8%);
+    background-position: center;
+    background-blend-mode: lighten;
+    height: 40rem;
+}
+
+main {
+    font-family: "Exo 2", sans-serif;
+}
+
+.btn {
+    --bs-btn-border-color: hsl(204.38709677,79.48717949%,38.23529412%);
+}
+
+footer{
+    background-color: hsl(204.38709677,79.48717949%,38.23529412%);
+    color: white;
+}
+

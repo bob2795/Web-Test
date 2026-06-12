@@ -4,8 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Netlify -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <title>{{ name }} — Wheeler Auto Ent.</title>
 </head>
@@ -30,19 +38,22 @@
               <a href="/vehicles" class="nav-link {% if name == 'Vehicles' %}active{% endif %}">Vehicles</a>
             </li>
             <li>
-              <a href="#" class="nav-link {% if name == 'About Us' %}active{% endif %}">About Us</a>
+              <a href="/about-us" class="nav-link {% if name == 'About Us' %}active{% endif %}">About Us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
   </header>
   <main>
     {{ content }}
   </main>
-
-  <!-- netlify cms user stuff -->
+  <footer class="py-4 footer mt-3">
+    <div class="container text-center">
+      <p>&copy; Wheeler Auto Ent.</p>
+    </div>
+  </footer>
+  <!-- Decap user stuff -->
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
