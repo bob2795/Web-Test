@@ -1,7 +1,7 @@
 ---
 layout: layouts/vehicle.html
 name: 2016 FORD ESCAPE SE AWD "FULLY INSPECTED & CLEAN CARFAX"
-price: 9298
+price: 9298.99
 description: This well cared for Escape SE has been well cared for by previous owners. Excellent service history on Carfax.Nicelly equipped with all the comfort features & powered by the very popular & efficient 1.6 liter Ecoboost it provides both horsepower & fuel efficiency. 
 condition: Used
 kilometres: 193876

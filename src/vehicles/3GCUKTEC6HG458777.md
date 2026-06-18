@@ -1,7 +1,7 @@
 ---
 layout: layouts/vehicle.html
 name: 2017 CHEV SILVERADO HIGH COUNTRY CREWCAB 4X4 "FULLY INSPECTED"
-price: 22398
+price: 22398.99
 description: This beautiful HIGH COUNTRY is Loaded up and looking great!!!!!! Powered by the rock solid 5.3 l this truck is sure to catch everyone’s attention!!!! 
 condition: Used
 kilometres: 248237

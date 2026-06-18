@@ -1,3 +1,39 @@
+/* Elements */
+h2.text-light {
+    text-shadow: 1px 1px 6px black;
+    font-weight:  bold;
+}
+
+html header {
+    --bs-emphasis-color-rgb: 255, 255, 255;
+
+}
+.navbar h1 {
+    font-weight: 900;
+    font-family: "Exo 2", sans-serif;
+    color: white;
+}
+
+html .btn {
+    --bs-btn-bg: #1470af;
+    --bs-btn-border-color: #12659c;
+    --bs-btn-color: white;
+    --bs-btn-hover-color: #fff1f1;
+    --bs-btn-hover-bg: #1a8cd9;
+}
+
+main {
+    font-family: "Exo 2", sans-serif;
+}
+
+
+footer {
+    background-color: #1470af;
+    color: white;
+}
+
+/* Classes */
+
 .hero-image {
     background-image: url(https://images.squarespace-cdn.com/content/v1/60b06304404f6c784f922c05/cdbfedda-b8ed-4eba-af54-89306d2759c3/bw+WD+Dragster.png);
     background-repeat: no-repeat;
@@ -8,16 +44,12 @@
     height: 40rem;
 }
 
-main {
-    font-family: "Exo 2", sans-serif;
+.navbar {
+    background-color: #1470af;
 }
 
-.btn {
-    --bs-btn-border-color: hsl(204.38709677,79.48717949%,38.23529412%);
+.price {
+    border-bottom: solid;
 }
 
-footer{
-    background-color: hsl(204.38709677,79.48717949%,38.23529412%);
-    color: white;
-}
 

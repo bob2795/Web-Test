@@ -1,7 +1,7 @@
 ---
 layout: layouts/vehicle.html
 name: 2009 DODGE RAM 2500 LARAMIE CREWCAB 6.7 LITER CUMMINS DIESEL
-price: 16598
+price: 16598.99
 description: If you’re looking for a powerful, reliable, and well cared‑for heavy‑duty truck, this is it! This 2009 Ram 2500 Laramie comes with the legendary 6.7 Cummins Turbo Diesel, paired with a Crew Cab, 4x4, and every comfort feature you’d expect from a Laramie. 
 condition: Used
 kilometres: 398110
